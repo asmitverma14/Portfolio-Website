@@ -1,0 +1,274 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+   
+}
+body{
+    background: url("cvbg1.webp");
+}
+
+.sidebar {
+    background: linear-gradient(rgb(2, 12, 71), rgb(19, 107, 165));
+    position: absolute;
+    transition: transform 0.3s ease-in;
+    height: 100vh;
+}
+
+.sidebarGo{
+    transform: translate(-443px,0px);
+    position: absolute;
+}
+
+.sidebar nav {
+    padding: 30px;
+}
+
+
+.sidebar nav li {
+    list-style: none;
+    font-size: 27px;
+    padding: 33px 0;
+}
+
+.sidebar nav li a {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
+.main {
+    /* background-color: yellow; */
+    width: 90vw;
+    
+    /* background-color: rgb(225, 247, 247); */
+}
+
+.infoContainer {
+    /* background-color: rgb(117, 20, 36); */
+    height: 60vh;
+    width: 100vw;
+    margin: 86px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.devInfo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.hello {
+    font-size: 70px;
+    color: white;
+}
+
+.name {
+    font-size: 60px;
+    font-weight: bold;
+    color: white;
+    
+}
+
+.about {
+    font-size: 40px;
+    color: white;
+}
+
+.moreabout {
+    margin-top: 20px;
+}
+
+.buttons {
+    margin-top: 30px;
+
+}
+
+.buttons button {
+    padding: 9px 11px;
+    border-radius: 22px;
+    background-color: white;
+    color: dodgerblue;
+    font-weight: bold;
+    font-size: 15px;
+    margin: 0 3px;
+    cursor: pointer;
+
+}
+
+.buttons button:hover {
+    color: white;
+    background-color: dodgerblue;
+}
+
+.devPic img {
+    height: 60vh;
+}
+
+
+.container {
+    display: flex;
+}
+
+
+/* contact.html */
+
+.contactform {
+    padding: 0px 34px;
+    padding-top: 115px;
+    font-size: 20px;
+}
+
+.contactform h1 {
+    margin-left: 300px;
+
+
+}
+
+.contactform form {
+    margin-top: 50px ;
+    margin-left: 300px;
+}
+
+.contactform button{
+    text-align: center;
+    padding: 6px 11px;
+    border-radius: 20px;
+    background-color: white;
+    color: dodgerblue;
+    font-weight: bold;
+    font-size: 15px;
+    margin: 0 3px;
+    cursor: pointer;
+    width: 6vw;
+}
+.contactform button:hover{
+    color: white;
+    background-color: dodgerblue;
+}
+.contactform form div{
+    display: flex;
+    flex-direction: column;
+  padding:10px 0px;
+}
+.contactform form div input{
+    width: 25vw;
+    border-radius: 5px;
+    margin: 6px 0 0 0;
+    padding: 3px;
+}
+#formcheck{
+    flex-direction: row;
+}
+#formcheck input{
+    width: 20px;
+    margin: 2px 0;
+}
+
+/* about.html */
+.intro{
+    margin: 110px;
+}
+.intro h1{
+    margin: 10px;
+    font-size: 40px;
+}
+
+.intro h2{
+    padding: 10px;
+    font-size: 30px;
+}
+
+.intro p{
+margin: 10px;
+font-size: 20px;
+}
+
+.skillContainer{
+    padding: 10px;
+}
+
+.skillItem{
+    display: flex;
+    align-items: center;
+
+}
+.skill{
+  
+    width: 270px;
+    height: 6px;
+    background-color: red;
+    border-radius: 20px;
+    border: 2px solid black;
+  
+}
+.intro li{
+    margin:5px 25px;
+}
+.hundred{
+    width: 270px;
+
+}
+
+.seventyf{
+    width:200px;
+    background-color: rgb(72, 252, 27);
+}
+
+.fifty{
+    width: 135px;
+    background-color: blue;
+}
+
+.tf{
+    width: 65px;
+    background-color: yellow;
+}
+
+
+/* project.html */
+
+.projectContainer{
+    padding: 0px 34px;
+    padding-top: 50px;
+}
+
+.projectContainer h1{
+         margin:5px 10px ;
+         text-align: center;
+         text-decoration: underline;
+
+}
+.projectContainer h2{
+         margin: 15px 30px;
+
+         
+}
+.projectContainer h2 a{
+         text-decoration: none;
+         color:white;
+         
+}
+.projectContainer h2:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    
+    
+}
+.projDetails{
+         margin: 0 30px;
+}
+
+
+.hamBurger{
+        position: absolute;
+        cursor: pointer;
+        top: 10px;
+        left: 10px;
+}
+
+.cross{
+    margin-left: 140px;
+}
